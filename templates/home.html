@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pending Name</title>
+  <link rel="stylesheet" href="{{ url_for('static',filename='styles/main.css')}}">
+</head>
+<body>
+  <header>
+    <a href="login.html"><button type="button" id="login">Login</button></a> 
+    <a href="sign_up.html"><button type="button" id="sign_up">Sign up</button></a> 
+  </header>
+
+  <div id="headings">
+    <h1 id="product_header">TIMED</h1>
+    <p id="subtitle">A to-do list that tracks time</p>
+  </div>
+    <img src="{{url_for('static', filename='Sunset_Forest.jpg')}}" alt="logo" id="logo">
+    <a href=to-do-list.html><button>Try now!</button></a>
+    <h4>Already have an account? <a href="login.html">Log in</a></h4>
+  
+
+  <div id="whitespace"></div>
+
+  <div id="info">
+    <div id="features">
+      <h3>Why Use TIMED?</h3>
+      <div id="feature_list">
+        <div class="feature_card">
+          Create unlimited lists
+        </div>
+        <div class="feature_card">
+          Keep track of how long you spend on each task
+        </div>
+        <div class="feature_card">
+          Analyze the time spent in percentages for clearer comprehension
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+</body>
+</html>
