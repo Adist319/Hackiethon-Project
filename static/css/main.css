@@ -1,26 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap');
 
-
-header {
-  background: rgb(0,157,255);
-  outline: none;
-  margin: 0px;
-  margin-bottom: 0px;
-  padding: 0px;
-  color: white;
-  font-weight: bold;
-  font-family: Roboto, sans-serif;
-  text-align: center;
-  height: 40px;
-}
-
-#header {
-  padding: 0px;
-  margin: 0px;
-  font-size: 2.6em;
-  
-}
-
 body {
   background-attachment: fixed;
   margin: 0px;
@@ -29,6 +8,7 @@ body {
 
 main {
   background-image: url("/static/images/background.png");
+  background-attachment: fixed;
   height: 350px;
 }
 
@@ -80,6 +60,7 @@ main {
   background-color: rgb(98, 195, 255);
   transition-duration: 0.4s;
   box-shadow: 2px 5px 5px 0 rgba(0,0,0,0.24);
+  padding: 9px 45px 9px 45px; 
 }
 
 #logo {
@@ -90,11 +71,9 @@ main {
   height: 250px;
 }
 
-#whitespace {
-  margin-bottom: 70px;
-}
 
 #info {
+  background-color: rgb(21, 16, 25);
   color: black;
   text-align: center;
   font-family: Roboto, sans-serif;
@@ -104,6 +83,10 @@ main {
 }
 
 h3 {
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  padding-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -114,9 +97,10 @@ h3 {
 
 
 .feature_card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  background-color: rgb(0,157,255);
-  color: white;
+  box-shadow: 3px 4px 2px 0 rgba(0,0,0,0.2);
+  background: rgb(202,235,255);
+  background: linear-gradient(149deg, rgba(202,235,255,1) 9%, rgba(255,255,255,1) 50%, rgba(45,131,255,1) 100%);
+  color: black;
   transition: 0.3s;
 
   display: inline-block;
@@ -138,5 +122,12 @@ h3 {
 }
 
 .feature_card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 4px 8px 4px 0 rgba(0,0,0,0.2);
+}
+
+#gif {
+  background-color: black;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
 }
