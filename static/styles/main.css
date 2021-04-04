@@ -28,7 +28,7 @@ body {
 }
 
 main {
-  background-image: url("TIMED background.png");
+  background-image: url("static/TIMED background.png");
   height: 350px;
 }
 
