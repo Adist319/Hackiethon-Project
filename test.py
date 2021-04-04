@@ -14,12 +14,12 @@ class ToDo(db.Model):
 
 # Home Page
 
-@app.route('/home')
+@app.route('/')
 def home():
     return render_template('home.html')
 
 
-@app.route('/')
+@app.route('/to_do_list')
 def index():
     """
     Index will change later.

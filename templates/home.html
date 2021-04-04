@@ -4,39 +4,39 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pending Name</title>
+  <title>TIMED</title>
   <link rel="stylesheet" href="{{ url_for('static',filename='styles/main.css')}}">
 </head>
 <body>
   <header>
-    T
+    <p id="header">T</p>
   </header>
 
-  <div id="headings">
-    <h1 id="product_header">TIMED</h1>
-    <p id="subtitle">A to-do list that tracks time</p>
-  </div>
-    <img src="{{url_for('static', filename='Sunset_Forest.jpg')}}" alt="logo" id="logo">
-    <a href=base.html><button>Try now!</button></a>
-    <h4>Already have an account? <a href="login.html">Log in</a></h4>
-  
+  <main>
+    <div id="headings">
+      <h1 id="product_header">TIMED</h1>
+      <p id="subtitle">A web-based to-do list that tracks time spent</p>
+    </div>
+
+    <div id="trynowdiv">
+      <a href="base.html" id="trynow">Start</a>
+    </div>
+  </main>
 
   <div id="whitespace"></div>
 
   <div id="info">
-    <div id="features">
       <h3>Why Use TIMED?</h3>
       <div id="feature_list">
         <div class="feature_card">
           Create unlimited lists
         </div>
         <div class="feature_card">
-          Keep track of how long you spend on each task
+          Track time spent on tasks
         </div>
         <div class="feature_card">
-          Analyze the time spent in percentages for clearer comprehension
+          Time spent shown in percentages
         </div>
-      </div>
     </div>
   </div>
 
