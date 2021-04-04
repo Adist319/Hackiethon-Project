@@ -10,7 +10,26 @@
 <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
 <style>
     body {
-      background-color: rgb(208, 234, 243);
+        background: rgb(0,159,255);
+        background: linear-gradient(149deg, rgba(0,159,255,1) 0%, rgba(118,85,125,1) 45%, rgba(121,83,122,1) 46%, rgba(131,77,110,1) 50%, rgba(231,50,50,1) 82%, rgba(0,68,167,1) 100%);
+    }
+
+    .ui.segment {
+    position: relative;
+    background: #5b659a;
+    -webkit-box-shadow: 0 1px 2px 0 rgb(34 36 38 / 15%);
+    box-shadow: 0 1px 2px 0 rgb(34 36 38 / 15%);
+    margin: 1rem 0;
+    padding: 1em 1em;
+    border-radius: .28571429rem;
+    border: 1px solid rgba(34,36,38,.15);
+    }
+
+    
+
+
+    #whitespace {
+        margin-top: 20px;
     }
 </style>
     
@@ -26,7 +45,9 @@
             <label for="title">Add New Task</label>
             <input type="text" name="title" placeholder="Enter a To-Do...">
             <br>
-            <button class="ui blue button" type="Submit">Add</button>
+            <div id="whitespace">
+                <button class="ui black button" type="Submit">Add</button>
+            </div>
         </div>
     </form>
 
