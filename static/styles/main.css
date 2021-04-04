@@ -7,7 +7,9 @@ header {
   margin: 0px;
   margin-bottom: 125px;
   padding: 10px;
-  text-align: right;
+  font-weight: bold;
+  color: white;
+  text-align: center;
 }
 
 body {
