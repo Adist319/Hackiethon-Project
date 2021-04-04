@@ -98,9 +98,9 @@ h3 {
 
 .feature_card {
   box-shadow: 3px 4px 2px 0 rgba(0,0,0,0.2);
-  background: rgb(202,235,255);
-  background: linear-gradient(149deg, rgba(202,235,255,1) 9%, rgba(255,255,255,1) 50%, rgba(45,131,255,1) 100%);
-  color: black;
+  background: rgb(26,30,32);
+  background: linear-gradient(149deg, rgba(26,30,32,1) 0%, rgba(26,28,29,1) 51%, rgba(0,68,167,1) 100%);
+  color: white;
   transition: 0.3s;
 
   display: inline-block;
