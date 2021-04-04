@@ -29,6 +29,7 @@ body {
 
 main {
   background-image: url("static/TIMED background.png");
+  background-color: yellow;
   height: 350px;
 }
 
